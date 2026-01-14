@@ -1,0 +1,4 @@
+[submodule "pipeline-aind+ephys/blob-048d1ee9-83b7-491f-8f02-1ca615b1d455/run-5/results/postprocessed/block0_acquisition-ElectricalSeriesRaw_recording1.zarr"]
+	path = pipeline-aind+ephys/blob-048d1ee9-83b7-491f-8f02-1ca615b1d455/run-5/results/postprocessed/block0_acquisition-ElectricalSeriesRaw_recording1.zarr
+	url = https://github.com/dandizarrs/733b2cb5-0243-4817-aeb6-57f1491ae7d8
+	datalad-id = e953da1f-87e7-4470-b7c8-4fc11ab6ecdc
