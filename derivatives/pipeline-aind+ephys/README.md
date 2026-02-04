@@ -1,4 +1,4 @@
-# AIND Ephys Pipeline
+# DANDI Compute - AIND Ephys
 
 This directory contains code and configuration files for running the AIND electrophysiology data processing pipeline on DANDI assets using MIT Engaging.
 
@@ -31,18 +31,20 @@ The output will be stored in [Dandiset `001697`](https://dandiarchive.org/dandis
 └── pipeline-aind+ephys/
     └── derivatives/
         └── asset-[first 8 characters of blob or zarr ID]/
-            └── results-[results ID]/
-                ├── code/ (submission script and config files)
-                │   └── ...
-                ├── intermediate/ (intermediate files from processing)
-                │   └── ... (the processed units)
-                ├── logs/ (logs from SLURM, SpikeInterface, and Nextflow)
-                │   └── ... (the processed units)
-                ├── output/ (processed units)
-                │   ├── [blob ID]_block[block number]_recording[recording number].nwb
-                │   └── ...
-                └── visualization/ (various plots useful for assessing quality)
-                    └── ...
+            ├── results-[results ID]/
+            │   ├── code/ (submission script and config files)
+            │   │   └── ...
+            │   ├── intermediate/ (intermediate files from processing)
+            │   │   └── ... (the processed units)
+            │   ├── logs/ (logs from SLURM, SpikeInterface, and Nextflow)
+            │   │   └── ... (the processed units)
+            │   ├── output/ (processed units)
+            │   │   ├── [blob ID]_block[block number]_recording[recording number].nwb
+            │   │   └── ...
+            │   └── visualization/ (various plots useful for assessing quality)
+            │       └── ...
             └── sourcedata/ (input NWB file)
                 └── [asset path or blob ID].nwb
 ```
+
+Note that the ID attached to the asset directory is **NOT** to be confused with the official asset ID from the DANDI API, which does not uniquely identify the blob or zarr content.
