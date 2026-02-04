@@ -1,8 +1,3 @@
-[submodule "derivatives/pipeline-aind+ephys/derivatives/asset-048d1ee9/results-5/intermediate/postprocessed/block0_acquisition-ElectricalSeriesRaw_recording1.zarr"]
-	path = derivatives/pipeline-aind+ephys/derivatives/asset-048d1ee9/results-5/intermediate/postprocessed/block0_acquisition-ElectricalSeriesRaw_recording1.zarr
-	url = git@github.com:dandizarrs/56be9e80-3c9e-4c80-b4b5-98c314930b70
-	datalad-id = 8256f543-ef4a-47e0-8957-bd13fc6c06f0
-	github-access-status = private
 [submodule "derivatives/pipeline-aind+ephys/derivatives/asset-048d1ee9/result-5/intermediate/postprocessed/block0_acquisition-ElectricalSeriesRaw_recording1.zarr"]
 	path = derivatives/pipeline-aind+ephys/derivatives/asset-048d1ee9/result-5/intermediate/postprocessed/block0_acquisition-ElectricalSeriesRaw_recording1.zarr
 	url = https://github.com/dandizarrs/5525b521-4bc4-4125-9b93-2f3cfaf34c88
