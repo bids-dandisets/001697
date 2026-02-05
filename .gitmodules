@@ -1,4 +1,5 @@
 [submodule "derivatives/pipeline-aind+ephys/derivatives/asset-048d1ee9/result-5/intermediate/postprocessed/block0_acquisition-ElectricalSeriesRaw_recording1.zarr"]
 	path = derivatives/pipeline-aind+ephys/derivatives/asset-048d1ee9/result-5/intermediate/postprocessed/block0_acquisition-ElectricalSeriesRaw_recording1.zarr
-	url = https://github.com/dandizarrs/5525b521-4bc4-4125-9b93-2f3cfaf34c88
+	url = git@github.com:dandizarrs/5525b521-4bc4-4125-9b93-2f3cfaf34c88
 	datalad-id = 40ad74fb-772f-45de-a8ae-5d69fb361f75
+	github-access-status = private
