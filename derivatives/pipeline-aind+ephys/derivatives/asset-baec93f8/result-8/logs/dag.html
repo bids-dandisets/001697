@@ -1,0 +1,176 @@
+<!--
+  ~ Copyright 2013-2024, Seqera Labs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<pre class="mermaid" style="text-align: center;">
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#B6ECE2',
+      'primaryTextColor': '#160F26',
+      'primaryBorderColor': '#065647',
+      'lineColor': '#545555',
+      'clusterBkg': '#BABCBD22',
+      'clusterBorder': '#DDDEDE',
+      'fontFamily': 'arial'
+    }
+  }
+}%%
+flowchart TB
+    subgraph " "
+    v0["Channel.fromPath"]
+    end
+    v2(["job_dispatch"])
+    subgraph " "
+    v7[" "]
+    v18[" "]
+    v36[" "]
+    v43[" "]
+    v52[" "]
+    end
+    v10(["preprocessing"])
+    v11(["spikesort_kilosort4"])
+    v16(["postprocessing"])
+    v21(["curation"])
+    v27(["visualization"])
+    v35(["results_collector"])
+    v40(["quality_control"])
+    v42(["quality_control_collector"])
+    v46(["nwb_ecephys"])
+    v51(["nwb_units"])
+    v1(( ))
+    v3(( ))
+    v8(( ))
+    v9(( ))
+    v12(( ))
+    v13(( ))
+    v14(( ))
+    v15(( ))
+    v17(( ))
+    v19(( ))
+    v22(( ))
+    v23(( ))
+    v24(( ))
+    v25(( ))
+    v26(( ))
+    v28(( ))
+    v29(( ))
+    v30(( ))
+    v31(( ))
+    v32(( ))
+    v33(( ))
+    v34(( ))
+    v37(( ))
+    v38(( ))
+    v39(( ))
+    v41(( ))
+    v44(( ))
+    v45(( ))
+    v47(( ))
+    v48(( ))
+    v49(( ))
+    v50(( ))
+    v0 --> v1
+    v0 --> v8
+    v0 --> v12
+    v0 --> v22
+    v0 --> v28
+    v0 --> v37
+    v0 --> v44
+    v0 --> v47
+    v1 --> v2
+    v2 --> v3
+    v2 --> v9
+    v2 --> v13
+    v2 --> v23
+    v2 --> v29
+    v2 --> v38
+    v2 --> v45
+    v2 --> v48
+    v3 --> v7
+    v3 --> v10
+    v8 --> v10
+    v9 --> v10
+    v10 --> v11
+    v10 --> v27
+    v10 --> v14
+    v10 --> v30
+    v3 --> v11
+    v11 --> v15
+    v11 --> v24
+    v11 --> v31
+    v3 --> v16
+    v12 --> v16
+    v13 --> v16
+    v14 --> v16
+    v15 --> v16
+    v16 --> v17
+    v16 --> v19
+    v16 --> v25
+    v16 --> v32
+    v17 --> v18
+    v3 --> v21
+    v19 --> v21
+    v21 --> v26
+    v21 --> v33
+    v3 --> v27
+    v22 --> v27
+    v23 --> v27
+    v24 --> v27
+    v25 --> v27
+    v26 --> v27
+    v27 --> v34
+    v3 --> v35
+    v28 --> v35
+    v29 --> v35
+    v30 --> v35
+    v31 --> v35
+    v32 --> v35
+    v33 --> v35
+    v34 --> v35
+    v35 --> v36
+    v35 --> v39
+    v35 --> v49
+    v3 --> v40
+    v37 --> v40
+    v38 --> v40
+    v39 --> v40
+    v40 --> v41
+    v3 --> v42
+    v41 --> v42
+    v42 --> v43
+    v3 --> v46
+    v44 --> v46
+    v45 --> v46
+    v46 --> v50
+    v3 --> v51
+    v47 --> v51
+    v48 --> v51
+    v49 --> v51
+    v50 --> v51
+    v51 --> v52
+
+</pre>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, maxTextSize: Number.MAX_SAFE_INTEGER, maxEdges: Number.MAX_SAFE_INTEGER });
+</script>
+</body>
+</html>
