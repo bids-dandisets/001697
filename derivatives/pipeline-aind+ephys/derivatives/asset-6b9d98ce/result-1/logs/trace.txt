@@ -1,0 +1,11 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	92/0be73e	9625749	job_dispatch (job-dispatch)	COMPLETED	0	2026-02-24 13:42:30.953	48.3s	32.5s	5.6%	2.3 GB	2.6 GB	18.1 MB	684 KB
+3	2b/b9d0c2	9625789	preprocessing (preprocessing)	COMPLETED	0	2026-02-24 13:43:20.175	4m 19s	2m 20s	475.6%	40 GB	76 GB	9.5 GB	11.9 MB
+2	57/c654f4	9625792	nwb_ecephys (nwb-ecephys)	COMPLETED	0	2026-02-24 13:43:20.578	4m 19s	2m 20s	673.6%	37.3 GB	467.4 GB	29.4 GB	159.8 MB
+4	97/071d40	9625790	preprocessing (preprocessing)	COMPLETED	0	2026-02-24 13:43:20.383	4m 49s	15.9s	4367.8%	16.6 GB	31.7 GB	9.5 GB	11.9 MB
+6	87/cde77c	9625791	preprocessing (preprocessing)	COMPLETED	0	2026-02-24 13:43:20.500	5m 54s	15.8s	4420.9%	14.9 GB	28.5 GB	9.5 GB	11.9 MB
+5	e6/0b98f3	9625793	preprocessing (preprocessing)	COMPLETED	0	2026-02-24 13:43:20.660	5m 54s	16.3s	4308.4%	17.2 GB	32.8 GB	9.5 GB	11.9 MB
+7	ac/9f10c9	9625873	spikesort_kilosort4 (spikesort-kilosort4)	FAILED	1	2026-02-24 13:47:57.909	4m 11s	3m 5s	-	-	-	-	-
+8	38/ebf521	9625876	spikesort_kilosort4 (spikesort-kilosort4)	ABORTED	-	2026-02-24 13:48:09.441	-	-	-	-	-	-	-
+9	58/3aef40	9625925	spikesort_kilosort4 (spikesort-kilosort4)	ABORTED	-	2026-02-24 13:49:14.602	-	-	-	-	-	-	-
+10	20/5acffe	9625926	spikesort_kilosort4 (spikesort-kilosort4)	ABORTED	-	2026-02-24 13:49:14.732	-	-	-	-	-	-	-
