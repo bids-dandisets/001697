@@ -1,0 +1,44 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	f8/6adc12	9708111	job_dispatch (job-dispatch)	COMPLETED	0	2026-02-26 11:50:39.369	1m 9s	22.3s	84.8%	4.2 GB	4.6 GB	21.3 MB	2.3 MB
+3	dc/6d5ab3	9708143	preprocessing (preprocessing)	COMPLETED	0	2026-02-26 11:51:49.137	7m 5s	5m 2s	1144.6%	9.9 GB	16.2 GB	215.6 GB	33.2 GB
+2	6a/79eb58	9708145	preprocessing (preprocessing)	COMPLETED	0	2026-02-26 11:51:49.335	12m 4s	3m 27s	1713.9%	9.9 GB	16.2 GB	216.5 GB	32.9 GB
+4	2f/f5d731	9708146	preprocessing (preprocessing)	COMPLETED	0	2026-02-26 11:51:49.425	16m 4s	3m 29s	1688.5%	9.9 GB	16.2 GB	216.8 GB	32.9 GB
+7	93/76fc90	9708147	preprocessing (preprocessing)	COMPLETED	0	2026-02-26 11:51:49.513	21m 14s	5m	1209.4%	9.9 GB	16.2 GB	212.7 GB	33.2 GB
+8	86/7e488a	9708148	preprocessing (preprocessing)	COMPLETED	0	2026-02-26 11:51:49.614	24m 4s	3m 23s	1738.9%	9.9 GB	16.2 GB	214.4 GB	33.2 GB
+11	76/afb9c6	9708473	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-26 11:58:53.906	21m 10s	18m 4s	525.8%	37.7 GB	57.9 GB	185.4 MB	943.6 MB
+6	de/636ebc	9708149	preprocessing (preprocessing)	COMPLETED	0	2026-02-26 11:51:49.697	28m 34s	3m 26s	1736.7%	9.9 GB	16.2 GB	215.8 GB	33.2 GB
+12	89/4be4d3	9708668	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-26 12:03:53.837	19m 25s	18m 35s	543.9%	37.3 GB	58.2 GB	184.4 MB	935.7 MB
+10	7a/7a7e79	9708150	preprocessing (preprocessing)	COMPLETED	0	2026-02-26 11:51:49.822	33m 9s	3m 55s	1540.3%	9.9 GB	16.2 GB	215.4 GB	33.2 GB
+9	08/d4b3f2	9708151	preprocessing (preprocessing)	COMPLETED	0	2026-02-26 11:51:49.941	36m 19s	3m 7s	1922.5%	9.9 GB	16.2 GB	216.2 GB	33.2 GB
+14	7d/f40b6d	9709150	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-26 12:13:03.876	31m 30s	20m 10s	587.7%	37.6 GB	58.3 GB	199.8 MB	1 GB
+13	84/686869	9708822	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-26 12:07:53.908	42m 50s	29m 55s	666.8%	37.3 GB	61.1 GB	180.6 MB	903.7 MB
+5	e2/cae636	9708144	nwb_ecephys (nwb-ecephys)	COMPLETED	0	2026-02-26 11:51:49.247	1h 1m 5s	58m 43s	1266.2%	11.9 GB	50 GB	3.3 TB	4.6 GB
+16	05/8af78a	9709708	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-26 12:20:23.984	1h 4m 20s	32m 21s	86.3%	36.1 GB	52.2 GB	132.4 MB	505.3 MB
+15	95/c53fef	9709367	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-26 12:15:53.844	1h 21m 45s	50m 58s	298.0%	39.8 GB	61.2 GB	249.7 MB	1.4 GB
+17	b0/32c865	9710279	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-26 12:24:58.874	1h 34m 45s	32m	451.5%	39.8 GB	61.8 GB	218.5 MB	1.2 GB
+18	1f/7c6d29	9710535	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-26 12:28:08.852	1h 56m 10s	44m	445.9%	41.5 GB	67.4 GB	234.8 MB	1.3 GB
+23	11/e7c5be	9719515	postprocessing (postprocessing)	COMPLETED	0	2026-02-26 14:24:19.530	11m 9s	10m 16s	323.7%	36.5 GB	88.6 GB	2.1 GB	2.4 GB
+22	71/f45843	9719514	postprocessing (postprocessing)	COMPLETED	0	2026-02-26 14:24:19.443	11m 10s	9m 31s	314.1%	25.4 GB	75.3 GB	1.5 GB	1.8 GB
+21	82/debf06	9719513	postprocessing (postprocessing)	COMPLETED	0	2026-02-26 14:24:19.355	13m 15s	11m 45s	453.6%	32.4 GB	83.3 GB	1.9 GB	2.2 GB
+19	03/d4bdf2	9719511	postprocessing (postprocessing)	COMPLETED	0	2026-02-26 14:24:19.135	14m 10s	12m 30s	512.3%	50.8 GB	104.4 GB	3 GB	3.5 GB
+20	1f/f76ba6	9719512	postprocessing (postprocessing)	COMPLETED	0	2026-02-26 14:24:19.255	14m 20s	13m 16s	585.9%	49.1 GB	103.1 GB	3 GB	3.5 GB
+27	7a/9949de	9719861	curation (curation)	COMPLETED	0	2026-02-26 14:35:29.117	4m 15s	1m 47s	17.9%	2.2 GB	3.5 GB	531.4 MB	250.5 KB
+28	b6/7c3490	9719862	curation (curation)	COMPLETED	0	2026-02-26 14:35:29.199	4m 15s	1m 4s	11.2%	1.9 GB	3.1 GB	430.6 MB	249.4 KB
+29	f3/e4ace5	9719954	curation (curation)	COMPLETED	0	2026-02-26 14:37:34.178	2m 10s	1m 6s	13.5%	2.1 GB	3.2 GB	532.1 MB	249.7 KB
+24	07/23bc76	9719516	postprocessing (postprocessing)	COMPLETED	0	2026-02-26 14:24:19.615	17m 24s	6m 43s	873.4%	65.4 GB	119.4 GB	3.7 GB	4.3 GB
+31	14/92d24c	9720008	curation (curation)	COMPLETED	0	2026-02-26 14:38:39.067	3m 25s	52.7s	18.5%	2.8 GB	3.9 GB	654 MB	250.8 KB
+30	fe/4e5831	9719972	curation (curation)	COMPLETED	0	2026-02-26 14:38:29.754	3m 34s	46.5s	19.6%	2.9 GB	4 GB	627.2 MB	250.5 KB
+26	45/c071d1	9719518	postprocessing (postprocessing)	COMPLETED	0	2026-02-26 14:24:19.796	20m 14s	6m 13s	655.5%	57.9 GB	111.5 GB	3.2 GB	3.8 GB
+25	40/2a888a	9719517	postprocessing (postprocessing)	COMPLETED	0	2026-02-26 14:24:19.704	20m 14s	6m 27s	672.7%	65.3 GB	118.6 GB	3.5 GB	4 GB
+32	bf/63bbc3	9720197	curation (curation)	COMPLETED	0	2026-02-26 14:41:44.079	3m 35s	38.1s	28.8%	3.1 GB	4.3 GB	756.2 MB	250.9 KB
+33	d1/52fc2b	9720900	curation (curation)	COMPLETED	0	2026-02-26 14:44:34.336	3m 40s	30.4s	32.6%	1.3 GB	3.5 GB	712 MB	250.9 KB
+34	93/f90ff7	9720901	curation (curation)	COMPLETED	0	2026-02-26 14:44:34.417	4m 15s	37.7s	30.6%	3 GB	4.2 GB	687.5 MB	250.9 KB
+41	8b/8a95b9	9721177	visualization (visualization)	COMPLETED	0	2026-02-26 14:48:49.752	5m 19s	2m 17s	46.8%	10.8 GB	11.9 GB	4.2 GB	6.1 MB
+42	f6/77b131	9721178	visualization (visualization)	COMPLETED	0	2026-02-26 14:48:49.881	5m 19s	2m 24s	43.3%	10.8 GB	11.8 GB	4.2 GB	6.1 MB
+35	eb/246958	9721172	visualization (visualization)	COMPLETED	0	2026-02-26 14:48:49.273	40m 45s	38m 22s	97.0%	8.8 GB	10.1 GB	4.2 GB	6.1 MB
+38	92/bc0857	9721173	visualization (visualization)	COMPLETED	0	2026-02-26 14:48:49.371	40m 45s	38m 14s	97.3%	10.7 GB	11.9 GB	4.2 GB	5.3 MB
+39	de/f2264f	9721175	visualization (visualization)	COMPLETED	0	2026-02-26 14:48:49.586	40m 44s	38m 24s	96.8%	8.1 GB	10.3 GB	4 GB	6 MB
+40	9a/58bae5	9721176	visualization (visualization)	COMPLETED	0	2026-02-26 14:48:49.670	40m 44s	38m 28s	97.0%	7.9 GB	9.9 GB	4.3 GB	5.5 MB
+36	49/98ee71	9721171	visualization (visualization)	COMPLETED	0	2026-02-26 14:48:49.176	41m 15s	38m 30s	98.1%	10.7 GB	11.8 GB	4.1 GB	6 MB
+37	22/929caf	9721174	visualization (visualization)	COMPLETED	0	2026-02-26 14:48:49.459	41m 50s	39m 11s	97.5%	9.9 GB	11.5 GB	4.4 GB	6 MB
+43	ec/a1f3cf	9723570	results_collector (result-collector)	FAILED	-	2026-02-26 15:30:39.192	10m 5s	7m 5s	-	-	-	-	-
