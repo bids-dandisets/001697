@@ -1,0 +1,44 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	15/7dfc6d	9747780	job_dispatch (job-dispatch)	COMPLETED	0	2026-02-27 00:27:47.219	1m 9s	5s	56.3%	4.2 GB	4.6 GB	21.3 MB	2.3 MB
+3	c9/ee598d	9747785	preprocessing (preprocessing)	COMPLETED	0	2026-02-27 00:28:56.946	5m 5s	4m 24s	1343.2%	9.8 GB	16.2 GB	215.6 GB	33.2 GB
+2	75/358f9a	9747787	preprocessing (preprocessing)	COMPLETED	0	2026-02-27 00:28:57.035	10m 10s	3m 33s	1651.4%	9.8 GB	16.2 GB	216.5 GB	32.9 GB
+4	9f/39831f	9747788	preprocessing (preprocessing)	COMPLETED	0	2026-02-27 00:28:57.123	14m 4s	3m 34s	1616.9%	9.9 GB	16.2 GB	216.8 GB	32.9 GB
+6	75/d91e63	9747789	preprocessing (preprocessing)	COMPLETED	0	2026-02-27 00:28:57.202	17m 4s	3m 1s	1913.9%	9.9 GB	16.2 GB	215.8 GB	33.2 GB
+7	5a/40f014	9747790	preprocessing (preprocessing)	COMPLETED	0	2026-02-27 00:28:57.294	22m 4s	4m 22s	1335.6%	9.8 GB	16.2 GB	212.7 GB	33.2 GB
+11	db/7f4588	9747894	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-27 00:34:01.782	19m 15s	17m 24s	526.1%	37.7 GB	57.8 GB	185.2 MB	941.7 MB
+8	bc/42e0cf	9747791	preprocessing (preprocessing)	COMPLETED	0	2026-02-27 00:28:57.375	26m 4s	3m 19s	1731.6%	9.8 GB	16.2 GB	214.4 GB	33.2 GB
+9	b6/55c06b	9747792	preprocessing (preprocessing)	COMPLETED	0	2026-02-27 00:28:57.455	32m 19s	5m 18s	1059.4%	9.9 GB	16.2 GB	216.2 GB	33.2 GB
+10	62/554f5e	9747794	preprocessing (preprocessing)	COMPLETED	0	2026-02-27 00:28:57.669	36m 9s	3m 40s	1817.2%	9.9 GB	16.2 GB	215.4 GB	33.2 GB
+13	9a/97617d	9748175	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-27 00:43:01.700	42m 30s	30m 25s	656.6%	37.3 GB	61.2 GB	182 MB	915.2 MB
+14	e0/16e3bf	9748310	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-27 00:46:01.694	52m 30s	11m 33s	242.0%	36.3 GB	52.2 GB	132.8 MB	509.1 MB
+5	a3/2cb68f	9747793	nwb_ecephys (nwb-ecephys)	COMPLETED	0	2026-02-27 00:28:57.555	1h 22m 34s	1h 21m 38s	1326.2%	11.9 GB	50.1 GB	3.3 TB	4.6 GB
+15	a9/3142d1	9748496	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-27 00:51:01.799	1h 9m 35s	20m 24s	590.5%	37.6 GB	58.3 GB	199.9 MB	1 GB
+16	82/9b3825	9748607	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-27 00:55:01.707	1h 33m 45s	26m 27s	579.8%	39.8 GB	61.2 GB	250.1 MB	1.4 GB
+12	d1/27c125	9747994	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-27 00:39:06.677	2h 28m 25s	2h 24m 42s	2860.2%	37.4 GB	45.3 GB	182.9 MB	927.4 MB
+17	94/305f73	9748906	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-27 01:01:16.735	2h 12m 30s	42m 38s	476.0%	39.8 GB	64.9 GB	240.4 MB	1.4 GB
+18	be/0b1b0d	9749006	spikesort_kilosort4 (spikesort-kilosort4)	COMPLETED	0	2026-02-27 01:05:06.739	2h 43m 20s	32m 45s	439.3%	39.6 GB	65.9 GB	219.2 MB	1.2 GB
+22	84/904b31	9754584	postprocessing (postprocessing)	COMPLETED	0	2026-02-27 03:48:27.281	8m 15s	7m 13s	358.7%	27.9 GB	78.2 GB	1.7 GB	1.9 GB
+20	aa/175811	9754583	postprocessing (postprocessing)	COMPLETED	0	2026-02-27 03:48:27.188	9m 15s	8m 32s	525.2%	44.1 GB	97.3 GB	2.7 GB	3.1 GB
+19	19/2ee8f2	9754582	postprocessing (postprocessing)	COMPLETED	0	2026-02-27 03:48:27.084	10m 5s	9m 31s	450.5%	50 GB	103 GB	2.9 GB	3.4 GB
+23	7d/8cd167	9754585	postprocessing (postprocessing)	COMPLETED	0	2026-02-27 03:48:27.367	14m 15s	5m 46s	521.7%	40.5 GB	93.3 GB	2.3 GB	2.7 GB
+21	c8/d31f1d	9754586	postprocessing (postprocessing)	COMPLETED	0	2026-02-27 03:48:27.449	16m 19s	6m 16s	537.4%	35 GB	85.9 GB	2 GB	2.4 GB
+25	94/40de49	9754587	postprocessing (postprocessing)	COMPLETED	0	2026-02-27 03:48:27.529	18m 24s	7m 59s	486.0%	67.8 GB	122.3 GB	3.7 GB	4.2 GB
+28	26/a73411	9755068	curation (curation)	COMPLETED	0	2026-02-27 03:57:42.215	11m 10s	1m 6s	16.7%	2.7 GB	3.8 GB	622.2 MB	250.6 KB
+27	70/d6fba6	9754847	curation (curation)	COMPLETED	0	2026-02-27 03:56:42.026	13m 10s	1m 49s	58.6%	2.1 GB	3.3 GB	445.2 MB	250.1 KB
+29	36/7ccc68	9755208	curation (curation)	COMPLETED	0	2026-02-27 03:58:32.025	11m 35s	37.3s	24.7%	2.8 GB	3.9 GB	617 MB	250.7 KB
+30	1a/c06425	9755345	curation (curation)	COMPLETED	0	2026-02-27 04:02:42.062	8m 10s	59.4s	49.0%	2.5 GB	3.6 GB	549.5 MB	250.6 KB
+24	26/3941af	9754589	postprocessing (postprocessing)	COMPLETED	0	2026-02-27 03:48:27.692	23m 29s	6m 59s	713.1%	69.2 GB	123.1 GB	4 GB	4.6 GB
+31	a7/9ef585	9755565	curation (curation)	COMPLETED	0	2026-02-27 04:04:47.013	8m 10s	1m 40s	66.3%	2.2 GB	3.3 GB	545.7 MB	250.3 KB
+26	4b/efe618	9754588	postprocessing (postprocessing)	COMPLETED	0	2026-02-27 03:48:27.609	25m 24s	10m 38s	548.4%	59.4 GB	113.3 GB	3.3 GB	3.9 GB
+32	c3/e99a88	9755709	curation (curation)	COMPLETED	0	2026-02-27 04:06:52.022	7m 10s	1m 31s	63.8%	3.1 GB	4.3 GB	696.9 MB	251.5 KB
+33	39/6ef885	9756031	curation (curation)	COMPLETED	0	2026-02-27 04:11:57.095	3m 10s	2m 29s	78.2%	3.3 GB	4.5 GB	768.6 MB	251.5 KB
+34	6d/2ad667	9756160	curation (curation)	COMPLETED	0	2026-02-27 04:13:52.018	2m 5s	1m 9s	61.0%	3.1 GB	4.3 GB	720.3 MB	251.2 KB
+38	e8/b6dd71	9756221	visualization (visualization)	COMPLETED	0	2026-02-27 04:15:57.423	3m 10s	2m 14s	50.3%	10.5 GB	11.5 GB	4.5 GB	5.6 MB
+40	7a/c51a92	9756223	visualization (visualization)	COMPLETED	0	2026-02-27 04:15:58.640	3m 8s	1m 59s	47.5%	10.8 GB	11.8 GB	4.3 GB	6 MB
+35	ce/4226e4	9756220	visualization (visualization)	COMPLETED	0	2026-02-27 04:15:57.300	3m 10s	2m 11s	53.5%	10.6 GB	11.7 GB	4.3 GB	6 MB
+42	c1/b1040a	9756224	visualization (visualization)	COMPLETED	0	2026-02-27 04:15:58.717	5m 8s	1m 47s	50.4%	10.8 GB	11.9 GB	4.3 GB	6.1 MB
+39	31/15ab99	9756222	visualization (visualization)	COMPLETED	0	2026-02-27 04:15:58.554	5m 13s	3m 59s	60.7%	10.7 GB	12 GB	4.1 GB	5.2 MB
+36	a8/a23717	9756218	visualization (visualization)	COMPLETED	0	2026-02-27 04:15:57.106	6m 10s	4m 38s	75.1%	10.6 GB	11.8 GB	4.4 GB	6.1 MB
+41	28/2752db	9756225	visualization (visualization)	COMPLETED	0	2026-02-27 04:15:58.834	6m 8s	2m 5s	56.0%	10.8 GB	11.9 GB	4.2 GB	6.1 MB
+37	c8/fca7e6	9756219	visualization (visualization)	COMPLETED	0	2026-02-27 04:15:57.208	8m 15s	7m 6s	79.5%	10.7 GB	11.8 GB	4.3 GB	6 MB
+43	a5/4b77fe	9756800	results_collector (result-collector)	FAILED	-	2026-02-27 04:24:12.168	8m 10s	7m 5s	-	-	-	-	-
