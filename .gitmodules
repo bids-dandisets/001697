@@ -63,3 +63,11 @@
 	url = git@github.com:dandizarrs/bc488e27-234b-4582-8f55-4cbd3a56b4b2
 	datalad-id = 1d6518d1-baaf-4776-9464-00456aed92b5
 	github-access-status = private
+[submodule "derivatives/pipeline-aind+ephys/derivatives/asset-28a2b0b6+0dbf+4664+a358+e796dd924b95/result-4/intermediate/postprocessed/block0_acquisition-ElectricalSeriesAPImec0_recording1_groupNeuropixelsImec0Shank0.zarr"]
+	path = derivatives/pipeline-aind+ephys/derivatives/asset-28a2b0b6+0dbf+4664+a358+e796dd924b95/result-4/intermediate/postprocessed/block0_acquisition-ElectricalSeriesAPImec0_recording1_groupNeuropixelsImec0Shank0.zarr
+	url = https://github.com/dandizarrs/c8c526c5-c1c4-4320-8ad9-67170d930952
+	datalad-id = bf0c08ef-ec7a-48eb-b6a8-82e6aab95094
+[submodule "derivatives/pipeline-aind+ephys/derivatives/asset-28a2b0b6+0dbf+4664+a358+e796dd924b95/result-4/intermediate/postprocessed/block0_acquisition-ElectricalSeriesAPImec1_recording1_groupNeuropixelsImec1Shank3.zarr"]
+	path = derivatives/pipeline-aind+ephys/derivatives/asset-28a2b0b6+0dbf+4664+a358+e796dd924b95/result-4/intermediate/postprocessed/block0_acquisition-ElectricalSeriesAPImec1_recording1_groupNeuropixelsImec1Shank3.zarr
+	url = https://github.com/dandizarrs/da13b6cb-ea5c-4579-b063-02ba58a9376c
+	datalad-id = 409837c9-2452-4bc6-8677-aa300ea1bac8
