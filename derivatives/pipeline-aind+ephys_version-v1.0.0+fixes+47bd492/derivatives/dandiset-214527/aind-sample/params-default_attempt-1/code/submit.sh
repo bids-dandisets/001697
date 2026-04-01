@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=AIND-Ephys-Pipeline
-#SBATCH --output=/orcd/data/dandi/001/dandi-compute/processing/tmp2bmoz24d/001697/derivatives/pipeline-aind+ephys_version-v1.0.0+fixes+47bd492/derivatives/dandiset-214527/aind-sample/params-default_attempt-1/logs/job-%j_slurm.log
+#SBATCH --output=/orcd/data/dandi/001/dandi-compute/processing/tmp_9h8gl5o/001697/derivatives/pipeline-aind+ephys_version-v1.0.0+fixes+47bd492/derivatives/dandiset-214527/aind-sample/params-default_attempt-2/logs/job-%j_slurm.log
 #SBATCH --mem=1GB
 #SBATCH --cpus-per-task 1
 #SBATCH --partition=mit_normal
@@ -9,7 +9,7 @@
 NWB_FILE_PATH="/orcd/data/dandi/001/s3dandiarchive/blobs/048/d1e/048d1ee9-83b7-491f-8f02-1ca615b1d455"
 DATA_PATH="/orcd/data/dandi/001/s3dandiarchive/blobs/048/d1e"
 
-RESULTS_PATH="/orcd/data/dandi/001/dandi-compute/processing/tmp2bmoz24d/001697/derivatives/pipeline-aind+ephys_version-v1.0.0+fixes+47bd492/derivatives/dandiset-214527/aind-sample/params-default_attempt-1/intermediate"
+RESULTS_PATH="/orcd/data/dandi/001/dandi-compute/processing/tmp_9h8gl5o/001697/derivatives/pipeline-aind+ephys_version-v1.0.0+fixes+47bd492/derivatives/dandiset-214527/aind-sample/params-default_attempt-2/intermediate"
 WORKDIR="/orcd/data/dandi/001/dandi-compute/work"
 NXF_APPTAINER_CACHEDIR="/orcd/data/dandi/001/dandi-compute/work/apptainer_cache"
 
@@ -26,11 +26,11 @@ git -C "/orcd/data/dandi/001/dandi-compute/aind-ephys-pipeline.cody" checkout v1
 pip install -U dandi
 
 DATA_PATH="$DATA_PATH" RESULTS_PATH="$RESULTS_PATH" NXF_APPTAINER_CACHEDIR="$NXF_APPTAINER_CACHEDIR" nextflow \
-    -C "/orcd/data/dandi/001/dandi-compute/processing/tmp2bmoz24d/001697/derivatives/pipeline-aind+ephys_version-v1.0.0+fixes+47bd492/derivatives/dandiset-214527/aind-sample/params-default_attempt-1/code/mit_engaging.config" \
-    -log "/orcd/data/dandi/001/dandi-compute/processing/tmp2bmoz24d/001697/derivatives/pipeline-aind+ephys_version-v1.0.0+fixes+47bd492/derivatives/dandiset-214527/aind-sample/params-default_attempt-1/logs/nextflow.log" \
+    -C "/orcd/data/dandi/001/dandi-compute/processing/tmp_9h8gl5o/001697/derivatives/pipeline-aind+ephys_version-v1.0.0+fixes+47bd492/derivatives/dandiset-214527/aind-sample/params-default_attempt-2/code/mit_engaging.config" \
+    -log "/orcd/data/dandi/001/dandi-compute/processing/tmp_9h8gl5o/001697/derivatives/pipeline-aind+ephys_version-v1.0.0+fixes+47bd492/derivatives/dandiset-214527/aind-sample/params-default_attempt-2/logs/nextflow.log" \
     run "/orcd/data/dandi/001/dandi-compute/aind-ephys-pipeline.cody/pipeline/main_multi_backend.nf" \
     -work-dir "$WORKDIR" \
-    --params_file "/orcd/data/dandi/001/dandi-compute/processing/tmp2bmoz24d/001697/derivatives/pipeline-aind+ephys_version-v1.0.0+fixes+47bd492/derivatives/dandiset-214527/aind-sample/params-default_attempt-1/code/default_parameters.json" \
+    --params_file "/orcd/data/dandi/001/dandi-compute/processing/tmp_9h8gl5o/001697/derivatives/pipeline-aind+ephys_version-v1.0.0+fixes+47bd492/derivatives/dandiset-214527/aind-sample/params-default_attempt-2/code/default_parameters.json" \
     --job_dispatch_args "--nwb-files $NWB_FILE_PATH"
 
 cd $RESULTS_PATH
@@ -38,7 +38,8 @@ mv nwb ../output
 mv visualization_output.json visualization/
 mv visualization ..
 mv nextflow/* ../logs/
+cd ..
 rm -rf $RESULTS_PATH  # Clean up intermediate values
 
 dandi upload --allow-any-path --validation skip  # TODO: remove need for extra flags
-echo "tmp2bmoz24d" >> /orcd/data/dandi/001/dandi-compute/processing/done.txt
+echo "tmp_9h8gl5o" >> /orcd/data/dandi/001/dandi-compute/processing/done.txt
