@@ -75,5 +75,6 @@
 	github-access-status = private
 [submodule "derivatives/pipeline-aind+ephys_version-v1.0.0-fixes/derivatives/dandiset-001697/sourcedata/aind-sample/attempt-6_params-default/intermediate/postprocessed/block0_acquisition-ElectricalSeriesRaw_recording1.zarr"]
 	path = derivatives/pipeline-aind+ephys_version-v1.0.0-fixes/derivatives/dandiset-001697/sourcedata/aind-sample/attempt-6_params-default/intermediate/postprocessed/block0_acquisition-ElectricalSeriesRaw_recording1.zarr
-	url = https://github.com/dandizarrs/8985141c-31fc-4c69-97c0-c7a809091ed7
+	url = git@github.com:dandizarrs/8985141c-31fc-4c69-97c0-c7a809091ed7
 	datalad-id = cdc7cec2-b2ac-41d6-aeee-bba215bff5ae
+	github-access-status = private
