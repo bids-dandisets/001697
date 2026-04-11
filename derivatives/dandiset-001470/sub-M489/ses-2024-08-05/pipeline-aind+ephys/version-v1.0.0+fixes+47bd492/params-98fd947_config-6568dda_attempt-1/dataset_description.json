@@ -12,7 +12,7 @@
     {
       "Name": "DANDI Compute: Code",
       "Description": "The primary source code for orchestration of AIND on MIT Engaging.",
-      "Version": "61dec0a",
+      "Version": "812d2c1",
       "CodeURL": "https://github.com/dandi-compute/code"
     }
   ],
