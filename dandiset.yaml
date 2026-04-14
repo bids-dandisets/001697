@@ -5,9 +5,9 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
 about: []
 access:
-- embargoedUntil: '2028-01-14'
+- embargoedUntil: '2026-04-14'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -52,18 +52,26 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-01-14T20:17:45.550719+00:00'
-description: "This is an upcoming experimental service for running a limited number
-  of pre-approved data processing pipelines directly on DANDI Datasets - for free!
-  See https://github.com/dandi-compute for more details. If you would like to sign
-  up for updates, please contact info@dandiarchive.org with the subject line 'Request:
-  Updates on DANDI-Compute'."
+description: This is an experiment in reproducible computing related to the DANDI
+  Archive.  Check back in a few months for results - more details to follow! The outer
+  level of the Dandiset is organized according to a BIDS-Study layout.  The primary
+  `derivatives/` directory follows the Type 1 BIDS-Derivatives structure. See the
+  linked GitHub companion repository for more information!
 ethicsApproval: []
 id: DANDI:001697/draft
 identifier: DANDI:001697
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001697/versions/draft/assets/
 name: DANDI Compute
-relatedResource: []
+relatedResource:
+- name: GitHub
+  relation: dcite:IsVariantFormOf
+  repository: '001697'
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://github.com/dandi-compute/001697
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
