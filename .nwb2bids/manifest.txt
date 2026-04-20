@@ -1,0 +1,3 @@
+dandiset.yaml
+dataset_description.json
+derivatives/dataset_description.json
