@@ -1,0 +1,53 @@
+	[WARNING] SUBJECT_FOLDERS There are no subject directories (labeled "sub-*") in the root of this BIDS dataset.
+
+		/dataset_description.json
+
+	Please visit https://neurostars.org/search?q=SUBJECT_FOLDERS for existing conversations about this issue.
+
+	[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.
+		License
+		/dataset_description.json - Field description: The license for the dataset.
+The use of license name abbreviations is RECOMMENDED for specifying a license
+(see [Licenses](SPEC_ROOT/appendices/licenses.md)).
+The corresponding full license text MAY be specified in an additional
+`LICENSE` file.
+
+
+		GeneratedBy
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+
+		SourceDatasets
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include `"URL"`, `"DOI"` (see
+[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and
+`"Version"` with
+[string](https://www.w3schools.com/js/js_json_datatypes.asp)
+values.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] NO_AUTHORS The Authors field of dataset_description.json should contain an array of fields -
+with one author per field. This was triggered because there are no authors, which
+will make DOI registration from dataset metadata impossible.
+
+		Authors
+		/dataset_description.json - Field description: List of individuals who contributed to the creation/curation of the dataset.
+
+
+	Please visit https://neurostars.org/search?q=NO_AUTHORS for existing conversations about this issue.
+
+	[ERROR] JSON_KEY_REQUIRED A JSON flle is missing a key listed as required.
+		Name
+		/dataset_description.json - Field description: Name of the dataset.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_REQUIRED for existing conversations about this issue.
+
+
+          Summary:                         Available Tasks:        Available Modalities:
+          1 Files, 56 B                                                                 
+          0 - Subjects 1 - Sessions                                                     
+
+	If you have any questions, please post on https://neurostars.org/tags/bids.
