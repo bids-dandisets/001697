@@ -1,7 +1,7 @@
 {
-  "nwb2bids_version": "v0.12.0-16-g2d69630",
+  "nwb2bids_version": "v0.13.0",
   "nwb2bids_branch": "main",
   "limit": null,
   "sessions_converted": 0,
-  "total_sessions": 7
+  "total_sessions": 2
 }

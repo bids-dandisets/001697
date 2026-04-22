@@ -1,0 +1,54 @@
+[
+  {
+    "identifier": "DandisetAlreadyBIDS",
+    "title": "Dandiset is already BIDS",
+    "reason": "Dandiset is already organized to the BIDS standard. If only a partial conversion is desired, please raise an issue on https://github.com/con/nwb2bids/issues/new to discuss the use case.",
+    "solution": "Skip the conversion of this Dandiset.",
+    "examples": null,
+    "field": null,
+    "data_standards": null,
+    "source_file_paths": null,
+    "target_file_paths": null,
+    "category": "INTERNAL_ERROR",
+    "severity": "ERROR"
+  },
+  {
+    "identifier": "MetadataExtractionFailure",
+    "title": "Failed to extract metadata for one or more sessions",
+    "reason": "Required dataset description fields are inferred from the raw metadata instead.\n\nTraceback (most recent call last):\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/_converters/_dataset_converter.py\", line 207, in extract_metadata\n    collections.deque(\n    ~~~~~~~~~~~~~~~~~^\n        (\n        ^\n    ...<8 lines>...\n        maxlen=0,\n        ^^^^^^^^^\n    )\n    ^\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/_converters/_dataset_converter.py\", line 209, in <genexpr>\n    session_converter.extract_metadata()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/_converters/_session_converter.py\", line 123, in extract_metadata\n    self.session_metadata = BidsSessionMetadata.from_nwbfile_paths(\n                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        nwbfile_paths=self.nwbfile_paths, run_config=self.run_config\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/data/dandi/s3-logs/conda/envs/bids_dandisets/lib/python3.13/site-packages/pydantic/_internal/_validate_call.py\", line 39, in wrapper_function\n    return wrapper(*args, **kwargs)\n  File \"/data/dandi/s3-logs/conda/envs/bids_dandisets/lib/python3.13/site-packages/pydantic/_internal/_validate_call.py\", line 136, in __call__\n    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/bids_models/_bids_session_metadata.py\", line 139, in from_nwbfile_paths\n    general_metadata = GeneralMetadata.from_nwbfiles(nwbfiles=nwbfiles)\n  File \"/data/dandi/s3-logs/conda/envs/bids_dandisets/lib/python3.13/site-packages/pydantic/_internal/_validate_call.py\", line 39, in wrapper_function\n    return wrapper(*args, **kwargs)\n  File \"/data/dandi/s3-logs/conda/envs/bids_dandisets/lib/python3.13/site-packages/pydantic/_internal/_validate_call.py\", line 136, in __call__\n    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/bids_models/_general_metadata.py\", line 237, in from_nwbfiles\n    raise NotImplementedError(message)\nNotImplementedError: Conversion of multiple NWB files per session is not yet supported.\n",
+    "solution": "Please raise an issue on `nwb2bids`: https://github.com/con/nwb2bids/issues.",
+    "examples": null,
+    "field": null,
+    "data_standards": null,
+    "source_file_paths": null,
+    "target_file_paths": null,
+    "category": "INTERNAL_ERROR",
+    "severity": "ERROR"
+  },
+  {
+    "identifier": "MetadataExtractionFailure",
+    "title": "Failed to extract metadata for one or more sessions",
+    "reason": "Required dataset description fields are inferred from the raw metadata instead.\n\nTraceback (most recent call last):\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/_converters/_dataset_converter.py\", line 207, in extract_metadata\n    collections.deque(\n    ~~~~~~~~~~~~~~~~~^\n        (\n        ^\n    ...<8 lines>...\n        maxlen=0,\n        ^^^^^^^^^\n    )\n    ^\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/_converters/_dataset_converter.py\", line 209, in <genexpr>\n    session_converter.extract_metadata()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/_converters/_session_converter.py\", line 123, in extract_metadata\n    self.session_metadata = BidsSessionMetadata.from_nwbfile_paths(\n                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        nwbfile_paths=self.nwbfile_paths, run_config=self.run_config\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/data/dandi/s3-logs/conda/envs/bids_dandisets/lib/python3.13/site-packages/pydantic/_internal/_validate_call.py\", line 39, in wrapper_function\n    return wrapper(*args, **kwargs)\n  File \"/data/dandi/s3-logs/conda/envs/bids_dandisets/lib/python3.13/site-packages/pydantic/_internal/_validate_call.py\", line 136, in __call__\n    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/bids_models/_bids_session_metadata.py\", line 139, in from_nwbfile_paths\n    general_metadata = GeneralMetadata.from_nwbfiles(nwbfiles=nwbfiles)\n  File \"/data/dandi/s3-logs/conda/envs/bids_dandisets/lib/python3.13/site-packages/pydantic/_internal/_validate_call.py\", line 39, in wrapper_function\n    return wrapper(*args, **kwargs)\n  File \"/data/dandi/s3-logs/conda/envs/bids_dandisets/lib/python3.13/site-packages/pydantic/_internal/_validate_call.py\", line 136, in __call__\n    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/bids_models/_general_metadata.py\", line 237, in from_nwbfiles\n    raise NotImplementedError(message)\nNotImplementedError: Conversion of multiple NWB files per session is not yet supported.\n",
+    "solution": "Please raise an issue on `nwb2bids`: https://github.com/con/nwb2bids/issues.",
+    "examples": null,
+    "field": null,
+    "data_standards": null,
+    "source_file_paths": null,
+    "target_file_paths": null,
+    "category": "INTERNAL_ERROR",
+    "severity": "ERROR"
+  },
+  {
+    "identifier": "LocalInitializationFailure",
+    "title": "Failed to initialize converter on local NWB files.",
+    "reason": "An error occurred while executing `DatasetConverter.from_nwb_paths`.\n\nTraceback (most recent call last):\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/_converters/_dataset_converter.py\", line 296, in convert_to_bids_dataset\n    session_converter.convert_to_bids_session()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/data/dandi/bids-dandisets/nwb2bids/src/nwb2bids/_converters/_session_converter.py\", line 175, in convert_to_bids_session\n    raise NotImplementedError(message)\nNotImplementedError: Conversion of multiple NWB files per session is not yet supported. Please raise an issue on https://github.com/con/nwb2bids/issues/new to discuss the use case.\n",
+    "solution": "Please raise an issue on `nwb2bids`: https://github.com/con/nwb2bids/issues.",
+    "examples": null,
+    "field": null,
+    "data_standards": null,
+    "source_file_paths": null,
+    "target_file_paths": null,
+    "category": "INTERNAL_ERROR",
+    "severity": "ERROR"
+  }
+]
